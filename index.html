@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asif's Learning Site</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Asif Learning Site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cover -->
+    <div class="banner-image">
+        <img src="https://images.unsplash.com/photo-1742995186561-38d69a6d4f99?q=80&w=1700&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Banner" >
+        <div class="banner-text">
+            Welcome to Learning World
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="text-center p-5 bg-light">
+        <h2>Our Mission</h2>
+        <p>Empowering students through structured and skill-driven programming education.</p>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="container my-5">
+        <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+            <img src="https://media.istockphoto.com/id/1335247101/photo/computer-with-elements-of-program-code-on-the-screen-and-the-inscription-java-and-a-keyboard.jpg?s=1024x1024&w=is&k=20&c=0IP_iwBohfc2PoC628I2PZynVUSkJImd3_U_UYN5VWs=" class="card-img-top" alt="Java">
+            <div class="card-body">
+                <h5 class="card-title">Java Programming</h5>
+                <p class="card-text">Learn object-oriented Java from basics to advanced level.</p>
+                <p class="fw-bold">$5</p>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+            <img src="https://images.unsplash.com/photo-1669023414180-4dcf35d943e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGhwJTIwZGV2ZWxvcGVyfGVufDB8fDB8fHww" class="card-img-top" alt="PHP">
+            <div class="card-body">
+                <h5 class="card-title">PHP Web Development</h5>
+                <p class="card-text">Master back-end development using PHP and MySQL.</p>
+                <p class="fw-bold">$12.5</p>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+            <img src="https://images.unsplash.com/photo-1649180556628-9ba704115795?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHl0aG9uJTIwcHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="Python">
+            <div class="card-body">
+                <h5 class="card-title">Python for Everyone</h5>
+                <p class="card-text">Explore data, automation, and web with Python.</p>
+                <p class="fw-bold">$15</p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mb-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form id="contactForm" class="w-50 mx-auto">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name*</label>
+            <input type="text" class="form-control" id="name" required />
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email*</label>
+            <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message*</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <div id="formMessage" class="mt-3"></div>
+        </form>
+    </section>
+
+    <footer class="text-center bg-dark text-white py-3">
+        <div class="container">
+            <p>📍 132 Bara Mogbazar, Dhaka-1217 </p>
+            <p>📞 Contact: info@techlearn.com | ☎️ (+880) 172-00388XX</p>
+            <p> ©2025 Asif Learning Site. All rights reserved.</p>
+        </div> 
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>      
+</body>
+</html>
